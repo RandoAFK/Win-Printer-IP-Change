@@ -4,6 +4,6 @@ Run each line separately
 
 net stop spooler
 
-del %systemroot%\System32\spool\printers\* /Q then press “Enter“.
+del %systemroot%\System32\spool\printers\* /Q
 
 net start spooler
