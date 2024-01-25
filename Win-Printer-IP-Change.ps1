@@ -84,13 +84,3 @@ echo `n
 Get-PrintJob -PrinterName $myprintername | Format-Table | Out-String|% {Write-Host -foreground Green $_}
 
 if (!$fromps) {[void](Read-Host 'Press Enter to close window');Exit} Else {Exit}
-
-
-
-
-
-
-
-
-
-
