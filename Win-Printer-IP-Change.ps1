@@ -54,7 +54,7 @@ if (!$myprintername) {
 	if (!$fromps) {[void](Read-Host 'Press Enter to close window');Exit} Else {Exit}
 }
 
-$newport = "PORT_$new_ip"
+$newport = "IP_$new_ip"
 
 echo `n
 Write-Host "Upon confirmation, we will be:" -foreground Green
